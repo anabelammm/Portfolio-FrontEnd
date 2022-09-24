@@ -1,0 +1,57 @@
+.contenedorgeneral {
+    background-color: #ffa500;
+    width: 99%;
+    margin: 5px auto;
+    border: brown 1.5px solid;
+    border-radius: 10px;
+}
+
+/*css de banner*/
+.banner {
+    background-image: url("Imagenes/geometric1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: 99%;
+    margin: 5px auto;
+    border: brown 1.5px solid;
+    border-radius: 10px;
+}
+.tamañofoto {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+.contenedor {
+   width: 96%;
+   margin: 0 auto;
+   height: 385px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.resto {
+    background-image: url(Imagenes/geometric2.jpg);
+    padding: 20px;
+}
+.listacontacto {
+    list-style: none;
+}
+
+@media(max-width:480px) {
+.banner {
+    height: 420px;
+}
+.margenbanner {
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.resto {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+
